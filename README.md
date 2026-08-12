@@ -46,18 +46,6 @@ DevOps-инженер и веб-разработчик с **6+ годами пр
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/WEBzaytsev/caddy-dns-pro">Caddy DNS Pro</a></h3>
-<p>Готовый образ Caddy с DNS-провайдерами, автоматическим TLS, rate limiting и корректной работой за Cloudflare.</p>
-<p><code>Caddy</code> · <code>Docker</code> · <code>DNS</code> · <code>TLS</code></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/WEBzaytsev/hermes-consensus-planner">Hermes Consensus Planner</a></h3>
-<p>Многоагентное планирование для сложных задач: независимые варианты, перекрёстная проверка, обсуждение разногласий и явная передача нерешённых рисков человеку.</p>
-<p><code>Python</code> · <code>AI Agents</code> · <code>Hermes</code></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
 <h3><a href="https://github.com/WEBzaytsev/forward-auth">Forward Auth</a></h3>
 <p>Небольшой шлюз аутентификации для Caddy: общий код доступа, TOTP, защищённые сессии и ограничения на попытки входа.</p>
 <p><code>Next.js</code> · <code>Caddy</code> · <code>Security</code></p>
