@@ -1,0 +1,51 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nikita Zaitsev — DevOps and web developer</title>
+  <desc id="desc">Profile banner with the pixel rabbit from zaitsv.dev</desc>
+
+  <defs>
+    <filter id="rabbit-blur" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <linearGradient id="lime-fade" x1="670" y1="38" x2="1117" y2="342" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5FF59"/>
+      <stop offset="0.48" stop-color="#B5F602"/>
+      <stop offset="1" stop-color="#91D000"/>
+    </linearGradient>
+    <clipPath id="banner-clip">
+      <rect width="1200" height="360" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#banner-clip)">
+    <rect width="1200" height="360" fill="#F7F7F5"/>
+
+    <!-- The same rabbit silhouette used on zaitsv.dev -->
+    <g transform="translate(664 -108) scale(0.56)" opacity="0.9" filter="url(#rabbit-blur)">
+      <path d="M962.233 0.285645L977.24 788.895H814.856L817.841 945.779H493.145L490.16 788.895H327.776L330.762 945.779H168.449L165.464 788.895H3.08017L0.0681584 630.615H162.452L165.439 787.569H327.751L312.769 0.285645L475.153 0.285645L484.162 473.731H808.858L799.849 0.285645L962.233 0.285645Z" fill="url(#lime-fade)"/>
+    </g>
+
+    <!-- Crisp fragment gives the blurred figure a recognizable edge -->
+    <g transform="translate(891 56) scale(0.205)" opacity="0.16">
+      <path d="M962.233 0.285645L977.24 788.895H814.856L817.841 945.779H493.145L490.16 788.895H327.776L330.762 945.779H168.449L165.464 788.895H3.08017L0.0681584 630.615H162.452L165.439 787.569H327.751L312.769 0.285645L475.153 0.285645L484.162 473.731H808.858L799.849 0.285645L962.233 0.285645Z" fill="#6B9300"/>
+    </g>
+
+    <g fill="#0A0A0A" transform="translate(64 48)">
+      <!-- Compact pixel rabbit mark -->
+      <path d="M0 46H12V58H24V70H48V58H60V0H48V34H36V0H24V46H12V34H0V46Z"/>
+      <text x="82" y="53" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="31" font-weight="500" letter-spacing="-1.2">Zaitsev Web</text>
+    </g>
+
+    <g font-family="Inter, Arial, Helvetica, sans-serif" fill="#0A0A0A">
+      <text x="64" y="190" font-size="54" font-weight="650" letter-spacing="-2">Nikita Zaitsev</text>
+      <text x="67" y="236" font-size="23" font-weight="500">DevOps · Web development · AI systems</text>
+      <text x="67" y="280" font-size="18" fill="#535353">Infrastructure that survives the next deploy.</text>
+    </g>
+
+    <g transform="translate(67 315)">
+      <rect width="126" height="3" rx="1.5" fill="#B5F602"/>
+      <text x="145" y="7" fill="#0A0A0A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="600" letter-spacing="1.4">ZAITSV.DEV</text>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="27.25" stroke="#0A0A0A" stroke-opacity="0.08" stroke-width="1.5"/>
+</svg>
