@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Никита Зайцев — DevOps, Web и AI-системы" width="100%" />
+  <img src="./assets/zaitsv-profile-lime.svg" alt="Никита Зайцев — DevOps, Web и AI-системы" width="100%" />
 
   <br />
 
